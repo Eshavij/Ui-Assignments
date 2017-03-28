@@ -1,0 +1,55 @@
+/*
+Error: Invalid CSS after "	font-family: ": expected expression (e.g. 1px, bold), was ": 1px;"
+        on line 255 of ass1.scss
+
+250: 	color: #57585B;
+251: 	padding-top: 50px;
+252: 	padding-left: 170px;
+253: 	padding-right: 170px;
+254: 	padding-bottom: 50;
+255: 	font-family: : 1px;
+256: }
+257: 
+258: .foter-end-1 {
+259: 	list-style: none;
+260: 	display: flex;
+
+Backtrace:
+ass1.scss:255
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/parser.rb:710:in `assert_expr'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/parser.rb:75:in `parse'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1063:in `sass_script'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:909:in `value!'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1183:in `rethrow'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:791:in `try_declaration'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:22:in `load'
+/usr/local/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	font-family: \": expected expression (e.g. 1px, bold), was \": 1px;\"\A         on line 255 of ass1.scss\A \A 250: 	color: #57585B;\A 251: 	padding-top: 50px;\A 252: 	padding-left: 170px;\A 253: 	padding-right: 170px;\A 254: 	padding-bottom: 50;\A 255: 	font-family: : 1px;\A 256: }\A 257: \A 258: .foter-end-1 {\A 259: 	list-style: none;\A 260: 	display: flex;"; }

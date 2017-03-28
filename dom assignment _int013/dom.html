@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Assignment</title>
+	<link rel="stylesheet" type="text/css" href="dom.css">
+	
+	<script type="text/javascript" src="jquery-3.1.1.min.js" ></script>
+	
+</head>
+<body>
+<header>
+	<ul class="Main-header">
+		<ul class="Main-header-left">
+			<li class="Main-header-left-logo">
+			<a href="#" class="Main-header-left-logo-appdirect"></a></li>	
+			<li class="Main-header-left-text">My Apps</li>
+			<div class="dropdownmenu">
+			<li class="Main-header-left-text-link">MarketPlace</li>
+		</ul>
+		<ul class="Main-header-right">
+			<li class="Main-header-right-text">Account</li>
+			<li class="Main-header-right-text-link"><div class="dropdown">
+  <span class="dropdownbutton" id="dropdownbutton">Esha Vij </span> 
+  <ul id="dropdownmenuname" class="dropdown-show hide">
+    <li class="dropdown-item"><a href="#" class="dropdown-item-link">My Profile</a></li>
+    <li class="dropdown-item"><a href="#" class="dropdown-item-link">My Company</a><li>
+    <li class="dropdown-item"><a href="#" class="dropdown-item-link">My Settings</a><li>
+    <li class="dropdown-item"><a href="#" class="dropdown-item-link">Logout</a><li>
+  </ul> 
+</div></li>
+	</ul>
+	</ul>
+</header>
+<section class="section">
+	<div class="register">
+		<h1 align="center">REGISTRATION PAGE</h1>
+		<div class="first-half">
+			<div class="first-half-menu">
+				<span class="first-half-menu-item">First Name</span>
+				<span class="first-half-menu-item">Last Name</span>
+				<span class="first-half-menu-item">Address(P)</span>
+			</div>
+			<div class="first-half-menu-box">
+				<input class="first-half-menu-input" type="text" id="firstname">
+				<input class="first-half-menu-input" type="text" id="lastname">
+				<input class="first-half-menu-input" type="text" id="p_address">
+			</div>
+		</div>
+
+		<div>
+			<input class="section-checkbox" type="checkbox" id="checkbox" style="width:115px" />
+		</div>
+		<div class="first-half">
+			<div class="first-half-menu">
+				<span class="first-half-menu-item">Address (C)</span>
+				<span class="first-half-menu-item">Email-Id</span>
+				<span class="first-half-menu-item">Phone No</span>
+				<span class="first-half-menu-item">Password</span>
+				<span class="first-half-menu-item">Confirm Password</span>
+			</div>
+			<div class="second-half-menu-box">
+				<input class="first-half-menu-input" type="text" id="c_address">
+				<input class="first-half-menu-input" type="text" id="e_mail">
+				<input class="first-half-menu-input" type="text" id="ph">
+				<input class="first-half-menu-input" type="password" id="psswrd">
+				<input class="first-half-menu-input" type="password" id="cpsswrd">
+
+			</div>
+		</div>
+		<div class="buttons">
+			<input  type="button" value="Reset"  id="reset" class="buttons-reset">
+			<input type="button" value="Register" id="register" class="buttons-register">
+		</div>
+		
+	</div>
+	
+	<div class="dashboard">
+	<h1 align="center">DASHBOARD</h1>
+	<ul id="dashboard">
+    <li>
+        <a class="abc"></a>
+        <div class="def"></div>    
+    </li>
+    </ul>
+	</div>
+
+</section>
+
+<footer>
+	<ul class="footer">
+		<ul class="footer_1">
+			<li class="link1"><img src="appdirect_footer.png" height="25x" width="25px"></li>
+			<li class="link1">Powered By AppDirect ©2009-2017</li>
+		</ul>
+		<ul class="footer_2">
+			<li class="link2">
+				<select>
+					<option>English (United States)</option>
+					<option>English (UK)</option>
+					<option>Mandarin (China)</option>
+					<option>Hindi (India)</option>
+				</select>
+			</li>
+			<li class="link2">Help Center</li>
+			<li class="link2">Privacy Policy</li>
+			<li class="link2">Terms and Conditions</li>
+			<li class="link2">Contact</li>
+		</ul>
+	</ul>
+	<script type="text/javascript" src="jquery.js"></script>
+</footer>
+</body>
+</html>

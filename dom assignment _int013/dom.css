@@ -1,0 +1,281 @@
+.footer {
+  border-top: 1px solid #a9a9a9;
+  height: 40px;
+  display: flex;
+  width: 1050px;
+  margin-left: 150px;
+  padding-left: 0;
+}
+
+.footer_1 {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.footer_1 .link1 {
+  margin-left: 25px;
+  color: #808080;
+  font-size: 13px;
+}
+
+.footer_2 {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+.footer_2 .link2 {
+  margin-left: 25px;
+  color: #808080;
+  font-size: 13px;
+}
+
+.first-half {
+  display: flex;
+  margin-left: 186px;
+}
+
+.first-half-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-half-menu-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.first-half-menu-item {
+  margin-top: 20px;
+  font-size: 21px;
+}
+
+.first-half-menu-input {
+  margin-top: 10px;
+  padding: 9px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.buttons-reset {
+  padding: 17px;
+  border: 0;
+  background-color: cornflowerblue;
+  padding: 17px;
+}
+
+.buttons-register {
+  background-color: green;
+  padding: 17px;
+  border: 0;
+  margin-left: 20px;
+}
+
+.register {
+  border: 2px solid #999;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.second-half-menu-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+
+.section-checkbox {
+  margin-left: 313px;
+  margin-top: 10px;
+}
+
+.section {
+  display: flex;
+}
+
+.dashboard {
+  border: 2px solid #999;
+  margin-left: 117px;
+  width: 303px;
+}
+
+.Main-header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2D2A26;
+  height: 59px;
+  width: 1440px;
+  padding: 0;
+}
+
+.Main-header-left {
+  border: 1px solid #1b1917;
+  list-style: none;
+  display: flex;
+  margin-left: 150px;
+  padding: 0;
+}
+
+.Main-header-left-logo {
+  border-right: 1px solid #1b1917;
+  border-left: 1px solid #1b1917;
+  width: 70px;
+  height: 58px;
+  display: flex;
+}
+
+.Main-header-left-logo-appdirect {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+  margin-left: 20px;
+  margin-top: 14px;
+  background: url(appdirect_logo.png) no-repeat;
+  background-color: #2D2A26;
+  margin-right: 15px;
+}
+
+.Main-header-left-text {
+  height: 59px;
+  padding: 0px;
+  line-height: 51px;
+  color: #D2D5D9;
+  display: block;
+  margin-left: 0;
+  padding-left: 18px;
+  margin-top: 0;
+  padding-right: 16px;
+}
+
+.Main-header-left-text-link {
+  height: 59px;
+  line-height: 51px;
+  border-left: 1px solid #1b1917;
+  color: #D2D5D9;
+  display: block;
+  margin-left: 0;
+  padding-left: 18px;
+  margin-top: 0;
+  padding-right: 16px;
+}
+
+.Main-header-right {
+  border: 1px solid #1b1917;
+  list-style: none;
+  display: flex;
+  margin-right: 230px;
+  height: 57px;
+  padding-left: 0;
+}
+
+.Main-header-right-text {
+  height: 57px;
+  padding: 0px;
+  line-height: 51px;
+  color: #D2D5D9;
+  display: block;
+  margin-left: 0;
+  padding-left: 18px;
+  margin-top: 0;
+  padding-right: 16px;
+}
+
+.Main-header-right-text-link {
+  height: 57px;
+  line-height: 51px;
+  border-left: 1px solid #1b1917;
+  color: #D2D5D9;
+  display: block;
+  margin-left: 0;
+  padding-left: 18px;
+  margin-top: 0;
+  padding-right: 16px;
+}
+
+.dropdownbutton {
+  background-color: #2D2A26;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropdownbutton:hover, .dropdownbutton:focus {
+  background-color: #3E3B37;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownmenu {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-show {
+  list-style: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 129px;
+}
+
+.hide {
+  display: none;
+}
+
+.dropdown-item {
+  margin-bottom: -23px;
+}
+
+.dropdown-item-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0px 32px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #3E3B37;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.def {
+  display: none;
+}
+
+.abc:hover + .def {
+  display: block;
+  color: red;
+}
+
+#dashboard {
+  list-style: none;
+}
+
+/*# sourceMappingURL=dom.css.map */

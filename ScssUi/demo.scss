@@ -1,0 +1,51 @@
+@import "vars1";
+
+@import "common";
+
+@mixin block($bg, $tcolor, $ht) {
+	background-color: $bg;
+	color: $tcolor;
+	height: $ht;
+}
+
+.error-message {
+	@include block("#FFF", "#F2F2F2", "10px");
+
+	font-weight: bold;
+}
+
+//.header {
+//color: $color;
+//font-size: $font-size;
+//font-weight: $font-weight;
+//}
+
+.parent {
+	border: 1px solid red;
+
+	ul {
+		width: 100%;
+
+		li {
+			padding: 10px;
+
+			a {
+				//font-size: $font-size;
+		
+			}
+		}
+	}
+}
+
+.succss {
+	@extend .message;
+
+	background: green;
+	margin-left: 100%;
+}
+
+.error {
+	@extend .message;
+
+	background: red;
+}

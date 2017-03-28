@@ -1,0 +1,233 @@
+.footer {
+  border-top: 1px solid #a9a9a9;
+  height: 40px;
+  display: flex;
+  width: 1050px;
+  margin-left: 150px;
+  padding-left: 0; }
+  .footer_1 {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0; }
+    .footer_1 .link1 {
+      margin-left: 25px;
+      color: #808080;
+      font-size: 13px; }
+  .footer_2 {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 160px; }
+    .footer_2 .link2 {
+      margin-left: 25px;
+      color: #808080;
+      font-size: 13px; }
+
+.dashboard {
+  border: 2px solid #999;
+  width: 310px;
+  margin-right: 500px;
+  height: 574px;
+  margin: 40px;
+  overflow-y: scroll; }
+  .dashboard-content {
+    list-style-type: none; }
+    .dashboard-content-item-name {
+      text-decoration: none;
+      background-color: #999;
+      display: flex;
+      justify-content: center;
+      margin-right: 12px;
+      padding: 5px;
+      color: black;
+      cursor: default;
+      font-size: 25px;
+      margin-left: -20px;
+      margin-top: 7px; }
+    .dashboard-content-item-email {
+      display: none; }
+
+.dashboard-content-item-name:hover + .dashboard-content-item-email {
+  display: flex;
+  justify-content: center;
+  background-color: #999;
+  padding: 3px;
+  margin-right: 41px;
+  margin-top: 4px; }
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px; }
+
+.secondary-register {
+  margin: 0px;
+  border: solid black;
+  width: 40%;
+  background-color: #8297bc;
+  align-items: center; }
+
+.section {
+  display: flex;
+  list-style: none;
+  padding-left: 40px;
+  margin: 60px; }
+
+.section-primary {
+  margin: 0px;
+  width: 45%;
+  background-color: white;
+  align-items: center;
+  display: flex; }
+
+.section-primary-info {
+  margin-left: 20px;
+  margin-bottom: 10px; }
+
+.section-secondary {
+  margin-left: 40px;
+  width: 35%;
+  background-color: #F7F4F3; }
+
+.section-secondary-info {
+  margin: 0px;
+  border: solid black;
+  padding-bottom: 485px;
+  width: 100%;
+  background-color: #8297bc;
+  font-family: vardana; }
+
+.section-bottom-item {
+  margin: 20px;
+  padding: 10px;
+  background-color: #317faf;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 20%;
+  font-size: 20px; }
+
+.Main-header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2D2A26;
+  height: 59px;
+  width: 1440px;
+  padding: 0; }
+  .Main-header-left {
+    border: 1px solid #1b1917;
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+    padding: 0; }
+    .Main-header-left-logo {
+      border-right: 1px solid #1b1917;
+      border-left: 1px solid #1b1917;
+      width: 70px;
+      height: 58px;
+      display: flex; }
+      .Main-header-left-logo-appdirect {
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        display: block;
+        margin-left: 20px;
+        margin-top: 14px;
+        background: url(appdirect_logo.png) no-repeat;
+        background-color: #2D2A26;
+        margin-right: 15px; }
+    .Main-header-left-text {
+      height: 59px;
+      padding: 0px;
+      line-height: 51px;
+      color: #D2D5D9;
+      display: block;
+      margin-left: 0;
+      padding-left: 18px;
+      margin-top: 0;
+      padding-right: 16px; }
+      .Main-header-left-text-link {
+        height: 59px;
+        line-height: 51px;
+        border-left: 1px solid #1b1917;
+        color: #D2D5D9;
+        display: block;
+        margin-left: 0;
+        padding-left: 18px;
+        margin-top: 0;
+        padding-right: 16px; }
+  .Main-header-right {
+    border: 1px solid #1b1917;
+    list-style: none;
+    display: flex;
+    margin-right: 230px;
+    height: 57px;
+    padding-left: 0; }
+    .Main-header-right-text {
+      height: 57px;
+      padding: 0px;
+      line-height: 51px;
+      color: #D2D5D9;
+      display: block;
+      margin-left: 0;
+      padding-left: 18px;
+      margin-top: 0;
+      padding-right: 16px; }
+      .Main-header-right-text-link {
+        height: 57px;
+        line-height: 51px;
+        border-left: 1px solid #1b1917;
+        color: #D2D5D9;
+        display: block;
+        margin-left: 0;
+        padding-left: 18px;
+        margin-top: 0;
+        padding-right: 16px; }
+
+.dropdownbutton {
+  background-color: #2D2A26;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+/* Dropdown button on hover & focus */
+.dropdownbutton:hover, .dropdownbutton:focus {
+  background-color: #3E3B37; }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownmenu {
+  position: relative;
+  display: inline-block; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-show {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.hide {
+  display: none; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0px 32px;
+  text-decoration: none;
+  display: block; }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #3E3B37; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block; }
+
+/*# sourceMappingURL=header.css.map */

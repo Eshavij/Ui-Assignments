@@ -1,0 +1,19 @@
+.message {
+  font-size: 12px;
+  background-color: #DADADA; }
+
+.header {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold; }
+
+.parent {
+  border: 1px solid red; }
+  .parent ul {
+    width: 100%; }
+    .parent ul li {
+      padding: 10px; }
+      .parent ul li a {
+        font-size: 12px; }
+
+/*# sourceMappingURL=style2.css.map */

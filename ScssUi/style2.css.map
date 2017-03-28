@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACR,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,OAAO;;ACC1B,OAAQ;EACP,KAAK,ECJE,IAAI;EDKX,SAAS,ECJE,IAAI;EDKf,WAAW,ECJE,IAAI;;ADOlB,OAAQ;EACP,MAAM,EAAE,aAAa;EAErB,UAAG;IACF,KAAK,EAAE,IAAI;IAEX,aAAG;MACF,OAAO,EAAE,IAAI;MAEb,eAAE;QACD,SAAS,EClBD,IAAI",
+"sources": ["_common.scss","demo1.scss","_vars1.scss"],
+"names": [],
+"file": "style2.css"
+}

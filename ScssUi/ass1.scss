@@ -1,0 +1,363 @@
+body {
+	margin: 0px;
+}
+
+.header-new-get {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 9px;
+	padding-left: 9px;
+	color: white;
+
+	/*padding: 30px;*/
+	font-size: 15px;
+	text-decoration: none;
+	background-color: #D62A34;
+}
+
+.header-primary {
+	display: flex;
+	list-style: none;
+	margin-right: 50px;
+	margin-left: -41px;
+}
+
+.header-new-menu2-account {
+	color: white;
+	background-color: #D62A34;
+	padding: 30px;
+	font-size: 15px;
+	text-decoration: none;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-right: 46px;
+	padding-left: 46px;
+}
+
+.header-new {
+	width: 100%;
+	padding-left: 0.000001px;
+}
+
+.header-new-menu1 {
+	display: flex;
+	padding: 10px;
+	list-style: none;
+	font-family: verdana;
+	width: 1200px;
+	background-color: #D6D6D6;
+}
+
+.header-primary-menu1-link {
+	color: black;
+	padding: 40px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.header-primary-menu1-link2 {
+	color: #D62A34;
+	padding: 16px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.header-primary-menu1-Link3 {
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #D62A34;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.header-new-menu1-link {
+	padding: 20px;
+}
+
+.header-new-menu1-link:hover {
+	color: white;
+	background-color: black;
+	padding: 20px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.header-new-menu1-link2:hover {
+	padding: 10px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.header-new-menu1-link3:hover {
+	padding: 10px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.header-new-menu2 {
+	display: flex;
+	padding: 16px;
+	padding-left: 100px;
+	list-style: none;
+
+  &-link {
+	color: black;
+	padding: 30px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.header-new-menu2-link3 {
+	color: white;
+	padding: 40px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #D62A34;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.header-new-menu1-link:hover {
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.header-new-menu1-link3:hover {
+	padding: 10px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+/*.header-primary-menu-item2 {
+	display: flex;
+	background-color: grey;
+}
+
+.header-primary-menu-item3 {}*/
+
+.header-primary-menu-item-logo {
+	background: url("https://business.frontier.com/images/bft-staging/frontier-logo-edge3.png") no-repeat;
+	background-size: contain;
+	display: block;
+	width: 235px;
+	background-color: red;
+	height: 140px;
+}
+
+/*.header-primary-menu-item-link {
+	text-decoration: none;
+	color: black;
+	font-family: verdana;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.header-primary-menu-item-link:hover {
+	color: red;
+	text-decoration: none;
+	background-color: #ccc;
+	padding: 10px;
+	border-radius: 3px;
+}*/
+
+.footer {
+	background: url("frontierlogobottom.png") no-repeat;
+	background-color: #57585B;
+	background-size: contain;
+	display: block;
+	height: 70px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.footer-end-main {
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	display: flex;
+}
+
+.footer-end-ul {
+	list-style: none;
+	margin-left: 63px;
+	padding-left: 0px;
+}
+
+.footer-end-ul-h0 {
+	color: white;
+	list-style: none;
+	margin-left: 63px;
+	/*font-family: verdana;*/
+	font-size: 14px;
+}
+
+.footer-end-ul-h1 {
+	color: white;
+	list-style: none;
+	margin-left: 50px;
+	font-size: 14px;
+}
+
+.footer-end-ul-link1 {
+	/*margin-left: 63px;*/
+	color: grey;
+	padding: 2px;
+	font-size: 13px;
+	text-align: left;
+	/*color: white;*/
+}
+
+.footer-end-ul-link {
+	margin: 0px;
+	margin-left: 50px;
+	color: grey;
+	padding: 2px;
+	text-align: left;
+	font-size: 5px;
+}
+
+
+.footer-top {
+	background-color: #57585B;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	letter-spacing: 1px;
+}
+
+.end {
+	color: grey;
+	display: flex;
+	padding-left: 0px;
+	list-style: none;
+}
+
+.end-right {
+	padding-left: 100px;
+}
+
+.footer-end {
+	list-style: none;
+	color: #57585B;
+	padding-top: 50px;
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-bottom: 50;
+	font-family: : 1px;
+}
+
+.foter-end-1 {
+	list-style: none;
+	display: flex;
+	padding-left: 0px;
+}
+
+.footer-end-right {
+	padding-left: 20px;
+	color: gray;
+}
+
+.footer {
+	display: flex;
+	background-color: #57585B;
+}
+
+.footer-social {
+	list-style: none;
+	padding-left: 100%;
+	display: flex;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.footer-social-twitter {
+	background: url("t.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display: block;
+	background-size: contain;
+	padding-left: 20px;
+}
+
+.footer-social-in {
+	background: url("in.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display: block;
+	background-size: contain;
+	padding-left: 20px;
+}
+
+.footer-social-fb {
+	background: url("f.png") no-repeat;
+	height: 40px;
+	width: 40px;
+	display: block;
+	background-size: contain;
+}
+
+.footer-top {
+	background-color: #57585B;
+}
+
+.section-top {
+	background-color: #D62A34;
+	width: 100%;
+	margin-top: 30px;
+	/*margin-bottom: 30px;*/
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.header-primary-menu-item-link-box {
+	text-decoration: none;
+	color: red;
+	font-family: verdana;
+	font-size: 20px;
+	background-color: red;
+	color: white;
+}
+
+.header-primary-menu2-item {
+	padding: 12px;
+}
+
+.header-primary-menu2-item-link {
+	text-decoration: none;
+	color: #353535;
+}
+
+.footer-primary-menu {
+	display: flex;
+	padding-left: 1071px;
+}
+
+.footer-primary-menu-item {
+	list-style: none;
+}
+
+.footer-end-1 {
+	display: flex;
+}
+
+.footer-end-1-item {
+	list-style: none;
+	color: gray;
+	padding: 0px;
+}
+
+.image {
+	height: 93px;
+	background-color: #D62A34;
+}

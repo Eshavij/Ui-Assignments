@@ -1,0 +1,25 @@
+.message, .succss, .error {
+  font-size: 12px;
+  background-color: #DADADA; }
+
+.error-message {
+  background-color: "#FFF";
+  color: "#F2F2F2";
+  height: "10px";
+  font-weight: bold; }
+
+.parent {
+  border: 1px solid red; }
+  .parent ul {
+    width: 100%; }
+    .parent ul li {
+      padding: 10px; }
+
+.succss {
+  background: green;
+  margin-left: 100%; }
+
+.error {
+  background: red; }
+
+/*# sourceMappingURL=style.scss.map */
